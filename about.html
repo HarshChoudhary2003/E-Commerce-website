@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - E-Commerce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .about-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background:black;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+        h1 {
+            color:white;
+        }
+        p {
+            color: white;
+            line-height: 1.6;
+        }
+        .top_nav{
+    width: 100%;
+    height: 4rem;
+    background-color: black;
+}
+.top_nav_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_nav_wrap{
+    display: flex;
+    color: white;
+}
+.top_nav_p{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.top_nav_link{
+    margin-left: 0.6rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: red;
+}
+
+/* Navbar */
+.nav{
+    width: 100%;
+    height: 8rem;
+    border-bottom: 1px solid rgb(232, 223, 223) ;
+}
+
+.nav_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list{
+    display: flex;
+}
+.social{
+    display: flex;
+}
+.nav_logo{
+    font-size: 2.2rem;
+    font-weight: 800;
+    color:  #ff5722;
+}
+.nav_item{
+    margin: 0rem 2rem;
+}
+.nav_link{
+    padding: 0.6rem;
+    color: black;
+}
+.nav_form{
+    padding: 0.4rem;
+    background-color: rgb(214, 213, 213);
+    display: flex;
+    align-items: center;
+}
+.nav_input{
+    padding: 0.4rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.nav .social{
+    color: black;
+    padding: 1.7rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav .social i{
+    padding: 0 0.7rem;
+    color: black;
+}
+.nav .social i:hover{
+    color: rgb(48, 43, 43);
+    transition: 0.3s;
+}
+.nav .social i:before{
+    margin-left: 0.8rem;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <div class="top_nav">
+        <div class="container top_nav_container">
+            <div class="top_nav_wrap">
+                <p class="top_nav_p">
+                  
+                </p>
+                <a href="#" class="top_nav_link">SHOP SPHERE</a>
+            </div>
+        </div>
+    </div>
+
+    <!-------Main Nav-------->
+    <nav class="nav">
+        <div class="container nav_container">
+            <a href="#" class="nav_logo">SHOP SPHERE</a>
+            <ul class="nav_list">
+                <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="about.html" class="nav_link">About Us</a></li>
+                <li class="nav_item"><a href="contact.html" class="nav_link">Contact us</a></li>
+                <li class="nav_item"><a href="signup.html" class="nav_link">Sign Up</a></li>
+            </ul>
+            <div class="social">
+                <form action="#" class="nav_form">
+                    <input type="text" class="nav_input" placeholder="What are you looking for?"/>
+                    <i class="fa-solid fa-magnifying-glass" class="search"></i>
+                </form>
+                <i class="fa-regular fa-heart" class="heart"></i>
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping" class="cart"></i>
+                </a>
+            </div>
+            <span class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+        </div>
+    </nav>
+    <!-------Mobile Nav-------->
+   
+    <div class="about-container">
+        <fieldset>
+            <legend>
+        <h1>About Us</h1>
+
+        <p>Welcome to our e-commerce store! We are dedicated to providing high-quality products at unbeatable prices.</p>
+        <p>Our mission is to bring you the best shopping experience, ensuring customer satisfaction and top-notch service.</p>
+        <p>We offer a wide range of products, from electronics to fashion, all carefully selected to meet your needs.</p>
+        <p>Our team is passionate about what we do, and we strive to make your shopping experience enjoyable and hassle-free.</p>
+        <p>We believe in transparency and integrity, ensuring that you receive exactly what you order.</p>
+        <p>We value your feedback and are always looking for ways to improve our services.</p>
+        <p>Thank you for choosing us as your shopping destination. We look forward to serving you!</p>
+        <p>For any inquiries, feel free to contact us </p>
+        <p>Developed by Harsh Choudhary </p></legend></fieldset>
+    </div>
+    <footer style="background-color: #333; color: white; text-align: center; padding: 10px 0; margin-top: 20px;">
+        <p >&copy; 2025 shopsphere. All rights reserved.</p>
+        <p>Follow us on 
+            <a href="#" style="color: #ff5722; text-decoration: none;">Facebook</a>, 
+            <a href="#" style="color: #ff5722; text-decoration: none;">Twitter</a>, and 
+            <a href="#" style="color: #ff5722; text-decoration: none;">Instagram</a>.
+        </p>
+        <p>
+            <a href="about.html" style="color: #ff5722; text-decoration: none;">About </a> | 
+            <a href="contact.html" style="color: #ff5722; text-decoration: none;">Contact Us</a>
+        </p>
+    </footer>
+</body>
+</html>
